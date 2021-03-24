@@ -1,0 +1,3 @@
+mem="$(free -m | awk 'NR==2{printf "%s/%sMB\n", $3,$2,$3*100/$2 }')"
+icon="🧠"
+printf " %s %s \\n" "$icon" "$mem"
