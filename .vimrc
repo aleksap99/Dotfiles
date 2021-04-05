@@ -12,5 +12,6 @@ set undofile
 set incsearch
 set noswapfile
 set scrolloff=8
-colorscheme archery
-hi Normal guibg=NONE ctermbg=NONE
+set background=dark
+colorscheme gruvbox
+"hi Normal guibg=NONE ctermbg=NONE
